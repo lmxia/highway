@@ -1,0 +1,13 @@
+creator_object = [
+  {name = "crown", type = "feature"},
+  {name = "digitalbow", type = "feature"},
+]
+
+creator_role = [
+  {name = "admin"},
+]
+
+creator_policy = [
+  {role = "admin", object = "crown", action = ["read", "write", "manage"]},
+  {role = "admin", object = "digitalbow", action = ["read", "write", "manage"]},
+]
